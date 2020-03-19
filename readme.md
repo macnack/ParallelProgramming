@@ -22,5 +22,5 @@ setting in the **CMakeLists.txt** file:
 set(WITH_OPENCV YES) # type YES or NO
 ```
 
-The project can be loaded with whatever IDE which supports **cmake**.
+The project can be loaded with whatever IDE supporting **cmake**.
 

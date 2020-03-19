@@ -7,8 +7,8 @@
 #include <chrono>
 
 /**
- * The goal of program is to carry out all the tasks. The execution time of a single is given in the "time_per_task"
- * list. Write two program, both single and multi threaded ones, which can complete all the tasks.
+ * The goal of program is to carry out all the tasks. The execution time of a single taskis given in the "time_per_task"
+ * list. Write two programs, both single and multi threaded ones, which can complete all the tasks.
  *
  * Hints:
  * How single-threaded program should work:

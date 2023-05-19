@@ -4,7 +4,7 @@
 #include <mutex>
 #include <vector>
 #include <chrono>
-
+#include <algorithm>
 /**
  * The goal of program is to carry out all the tasks. The execution time of a single taskis given in the "time_per_task"
  * list. Write two programs, both single and multi threaded ones, which can complete all the tasks.
@@ -91,8 +91,7 @@ void reset_tasks() {
 
 int main() {
     std::chrono::time_point<std::chrono::system_clock> start, end;
-    int threads = 8;
-    
+    int threads = std::thread::hardware_concurrency();
     start = std::chrono::system_clock::now();
     run_single_threaded();
     end = std::chrono::system_clock::now();

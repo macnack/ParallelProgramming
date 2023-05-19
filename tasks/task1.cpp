@@ -15,7 +15,7 @@
  *
  * How multi-threaded program should work:
  * Split the range from 1 to n int equal chunks
- * Each thread calculates the sum of zeros from Begin to End
+ * Each thread calculats the sum of zeros from Begin to End
  *
  * Write your own functions, mutexes, locks!
  */
